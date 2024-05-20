@@ -30,3 +30,4 @@ To run the backend server, navigate to the `src` directory and run:
 ```sh
 python app.py
 ```
+check main readme for installation instructions. 
