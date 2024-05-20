@@ -1,0 +1,79 @@
+.trends-page {
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea 100%);
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .trends-title {
+    padding-left: 180px;
+    text-align: left;
+    color: #8b8484;
+
+  }
+  
+  .trends-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .trends-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%;
+  }
+  
+  .trend-item {
+    flex: 1 0 33.33%; /* 3 items per view */
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .trend-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .trend-item h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #8b8484;
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .nav-button.left {
+    left: 10px;
+  }
+  
+  .nav-button.right {
+    right: 10px;
+  }
+  
+  .explinationText {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .explinationText h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }

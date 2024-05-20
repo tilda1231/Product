@@ -1,0 +1,47 @@
+.about-page {
+    padding: 20px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea 100%);
+    color: #aa9696;
+    text-align: left;
+    min-height: 100vh; /* Ensure the background covers the full height of the viewport */
+  }
+  
+  .about-page h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-page p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .about-logo {
+    display: block;
+    margin: 0 0 20px 0; /* Align the logo to the left */
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .fashion-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .fashion-images img {
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plus-sign {
+    font-size: 2rem;
+    color: #b8a5a5;
+    margin: 0 10px;
+  }
+  

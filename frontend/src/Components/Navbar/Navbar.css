@@ -1,0 +1,42 @@
+.navbar{
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 1px 3px -2px black;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo img {
+    width: 120px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+ .nav-menu{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    list-style: none;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+ }
+
+ .nav-menu li{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+ }
+ 
+ .nav-menu hr{
+    width: 80%;
+    height: 3px;
+    border: none;
+    border-radius: 10px;
+    background: #ff4141;
+ }

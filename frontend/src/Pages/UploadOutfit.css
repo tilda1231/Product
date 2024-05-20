@@ -1,0 +1,88 @@
+.upload-outfit-page {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea 100%);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: linear-gradient(180deg, #fde1ff 0%, #e1ffea 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .upload-form label {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .upload-form select,
+  .upload-form input[type="text"],
+  .upload-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    background-color: #e5d1e7 ;
+    color: #333;
+    appearance: none; /* Removes default dropdown arrow */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23333" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px 16px;
+  }
+  
+  .custom-file-upload {
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .custom-file-upload img {
+    width: 100px; 
+    height: auto;
+  }
+  
+  #outfit-upload {
+    display: none;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
