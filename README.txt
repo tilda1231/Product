@@ -90,18 +90,30 @@ Installation
 1. Navigate to the `src` directory:
 - cd src
 
-2. Create a virtual environment:
-- python -m venv venv
-
-3. Activate the virtual environment:
+2. if your using a virtual enviroment, activate it with:
 On Windows:
 - venv\Scripts\activate
 On macOS and Linux:
 - source venv/bin/activate
 
 4. Install the required Python packages:
-pip install -r requirements.txt
+- pip install Flask
+- pip install flask-cors
+- pip install numpy 
+- pip install tensorflow
+- pip install opencv-python
+- pip install scikit-learn
+- pip install spacy
+- pip install transformers
+- pip install torch
+- pip install pillow
+- pip install webcolors
 
+5. Download en_core_web_sm model:
+- python -m spacy download en_core_web_sm
+
+6. Run app.py file:
+- python app.py
 
 
 ### Frontend Installation
