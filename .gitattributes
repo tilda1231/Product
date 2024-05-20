@@ -1,0 +1,2 @@
+Anno/segmentation/DeepFashion_segmentation_query.json filter=lfs diff=lfs merge=lfs -text
+src/bow_matrix.npy filter=lfs diff=lfs merge=lfs -text
